@@ -1,6 +1,6 @@
 public class MergeSort {
     public static void mergeSort(int[] arr, int left, int right) {
-        if (left < right) { // Base Case: left >= right (subarrays of size 1 or 0)
+        if (left < right) { 
             int mid = left + (right - left) / 2;
             mergeSort(arr, left, mid);
             mergeSort(arr, mid + 1, right);
