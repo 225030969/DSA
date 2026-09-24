@@ -6,7 +6,7 @@ public class SortingExperiment {
 
     public static void main(String[] args) {
         int[] sizes = {20, 50, 100, 500};
-        Random rand = new Random(42); // Fixed seed for reproducible benchmarks
+        Random rand = new Random(42); 
 
         System.out.printf("%-15s | %-10s | %-18s | %-18s%n", "Algorithm", "Input Size", "Number Comparisons", "Execution Time (ns)");
         System.out.println("-------------------------------------------------------------------------");
